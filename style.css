@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('wallpaper.webp');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  h1 {
+    margin-top: 0;
+    color: white;
+    font-size: 69px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: green;
+  }
+  
+  input {
+    margin-top: 20px;
+    padding: 8px;
+    font-size: 27.5px;
+  }
+  
+  button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 26px;
+    cursor: pointer;
+    background: transparent;
+    color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: green;
+  }
+  
+  .border {
+    border-radius: 15px;
+    padding: 25px;
+  }
+
+  .enter {
+    background: transparent;
+  }
+
+  #result {
+    color: white;
+    font-size: 40px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: green;
+  }
